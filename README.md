@@ -1,4 +1,4 @@
-This is the source code for the Game Engine Black Book: Commander Keen.
+This is the source code for the Game Engine White Papers: Commander Keen.
 I am releasing the source code (.tex) under GPL license. I
 retain ownership of all drawings and only provide them so the
 overall thing is compilable.

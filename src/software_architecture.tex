@@ -126,7 +126,7 @@ The first task performed by the program is to move itself, including the decompr
  \end{figure}
 
 \par
-Once relocated, the decompression code begins reading the compressed program and decompresses it back into the program’s original starting address. The heart of the decompressor is the LZSS algorithm, which operates by replacing repeated occurrences of data with references to earlier instances of that same data in the decompressed output\footnote{The detailed working of LZSS compression is beyond the scope of this book. If you are interested, here is a great explanation: https://cosmodoc.org/topics/lzexe/.}.
+Once relocated, the decompression code begins reading the compressed program and decompresses it back into the program’s original starting address. The heart of the decompressor is the LZSS algorithm, which operates by replacing repeated occurrences of data with references to earlier instances of that same data in the decompressed output\footnote{See https://cosmodoc.org/topics/lzexe/ for a detailed explanation of LZSS compression.}.
 
 \par
 \begin{figure}[H]
@@ -145,6 +145,7 @@ However, under DOS there are no guarantees about the memory address at which an 
 To solve this problem, DOS uses a relocation table. 
 When an EXE file is created, all absolute addresses in the code are calculated under the assumption that the program will be loaded at address \cw{0000:0000h}, the absolute beginning of memory. The relocation table contains a list of locations within the executable where such absolute addresses appear. The DOS loader iterates through this table and patches each address \circled{1} by adding the program’s actual load address \circled{2}.\\
 
+\vspace{-4pt}
 \par
 \begin{figure}[H]
 \centering

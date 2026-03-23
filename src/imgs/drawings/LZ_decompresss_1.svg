@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.85878225"
-     inkscape:cx="554.27322"
-     inkscape:cy="517.01115"
+     inkscape:cx="923.40055"
+     inkscape:cy="462.28249"
      inkscape:window-width="2560"
      inkscape:window-height="1528"
      inkscape:window-x="0"
@@ -410,12 +410,12 @@
     <text
        style="font-variant:normal;font-weight:normal;font-size:3.96875px;line-height:0%;font-family:'Bitstream Vera Sans';-inkscape-font-specification:BitstreamVeraSans-Roman;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.330729"
        id="text50-2-0-9"
-       y="125.85961"
-       x="145.87305"><tspan
+       y="113.1596"
+       x="145.87811"><tspan
          sodipodi:role="line"
          style="font-size:5.29167px;line-height:1.25;stroke-width:0.330729"
-         x="145.87305"
-         y="125.85961"
+         x="145.87811"
+         y="113.1596"
          id="tspan4">Uninitialized data</tspan></text>
     <g
        id="g1"
