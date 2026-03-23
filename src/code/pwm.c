@@ -1,1 +1,0 @@
-frequency = 1193181 / (value * 60) 
