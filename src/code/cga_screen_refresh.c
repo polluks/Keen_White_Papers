@@ -19,7 +19,7 @@ void VW_CGAFullUpdate (void)
     [...]
 
     evenblock:
-    asm	mov	ax,40           // words accross screen
+    asm	mov	ax,40           // words across screen
     copytwolines:
     asm	mov	cx,ax
     asm	rep	movsw           // copy row to VRAM bank 0

@@ -7,7 +7,7 @@ PUBLIC	RFL_MaskForegroundTiles
 	mov	bp,(TILESWIDE+1)*TILESHIGH+2
 	add	bp,di         ; when di = bx, 
 	push di           ; all tiles have been scanned    
-	mov	cx,-1         ; definately scan the entire thing
+	mov	cx,-1         ; definitely scan the entire thing
 
 ;============
 ; scan for a 3 in the update list

@@ -3,7 +3,7 @@ PUBLIC	VW_SetScreen
 
 	mov	dx,03DAh         ;Status Register 1
 ;
-; wait util the CRTC just starts scanning a diplayed line 
+; wait util the CRTC just starts scanning a displayed line 
 ; to set the CRTC start
 ;
 	cli

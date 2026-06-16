@@ -5,7 +5,7 @@ void CA_CacheMarks (char *title, boolean cachedownlevel)
 
 	numcache = 0;
 	//
-	// go through and make everything not needed purgable
+	// go through and make everything not needed purgeable
 	//
 	for (i=0;i<NUMCHUNKS;i++)
 		if (grneeded[i]&ca_levelbit)
