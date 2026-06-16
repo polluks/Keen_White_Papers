@@ -113,7 +113,7 @@ Although I wrote LZEXE for my own use, I gave it to some friends, and it was the
 The compression engine was built around the Lempel–Ziv–Storer–Szymanski (LZSS) algorithm, and the decompressor was designed to operate without using more memory than the final decompressed program required. This was more difficult than it might seem at first, because the tool had to ensure that there was never a moment when decompressed data overwrote an unread portion of the compressed data.\\
 
 \par
-An LZEXE-compressed program is a standard DOS executable, loaded in the standard way without any special trickery. Each executable file contains an EXE header, which specifies the initial layout of the executable in memory. One of its tasks is to initalize the stack, which is set up to a high area of uninitialized memory.\\
+An LZEXE-compressed program is a standard DOS executable, loaded in the standard way without any special trickery. Each executable file contains an EXE header, which specifies the initial layout of the executable in memory. One of its tasks is to initialize the stack, which is set up to a high area of uninitialized memory.\\
 
 \par
 The first task performed by the program is to move itself, including the decompression code and relocation table. This step is necessary because, if the compressed payload were decompressed in the same location where DOS originally loaded it, the decompressor would begin writing decompressed program data faster than it could read the compressed data, destroying its own source material.\\
